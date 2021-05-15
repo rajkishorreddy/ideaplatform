@@ -17,6 +17,17 @@
     right: 5rem;
     height: 40rem;
     width: 40rem;
+    @media only screen and (max-width: 75em) {
+      right: 2rem;
+    }
+    @media only screen and (max-width: 56.25em) {
+      height: 30rem;
+      width: 30rem;
+      right: 2rem;
+    }
+    @media only screen and (max-width: 26em) {
+      display: none;
+    }
   }
   &-list {
     color: white;
@@ -24,9 +35,15 @@
     width: 60%;
     margin-top: 5rem;
     margin-left: 5rem;
+    @media only screen and (max-width: 26em) {
+      width: 100%;
+    }
     &-item {
       font-weight: 100;
       padding: 1rem;
+    }
+    @media only screen and (max-width: 75em) {
+      margin-left: 2.5rem;
     }
   }
   &-moto {

@@ -1,0 +1,41 @@
+.body {
+  background: #002046;
+  height: 100vh;
+  position: relative;
+  padding-top: 5rem;
+  &-heading {
+    font-family: "Montserrat", sans-serif;
+    font-size: 5rem;
+    font-weight: 700;
+    color: white;
+    padding: 2rem;
+    margin-left: 3rem;
+  }
+  &-img {
+    position: absolute;
+    top: 13rem;
+    right: 5rem;
+    height: 40rem;
+    width: 40rem;
+  }
+  &-list {
+    color: white;
+    font-size: 2rem;
+    width: 60%;
+    margin-top: 5rem;
+    margin-left: 5rem;
+    &-item {
+      font-weight: 100;
+      padding: 1rem;
+    }
+  }
+  &-moto {
+    color: white;
+    position: absolute;
+    bottom: 5rem;
+    left: 20%;
+    // transform: translateX(-50%);
+    font-size: 2rem;
+    font-weight: 600;
+  }
+}

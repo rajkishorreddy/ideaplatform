@@ -180,11 +180,14 @@ body {
 .footer {
   background: #002046;
   display: flex;
-  color: rgb(155, 155, 155);
+
   align-items: center;
   justify-content: flex-end;
-  font-size: 1rem;
+  font-size: 1.5rem;
   padding: 2rem;
   border-top: 1px solid rgb(28, 28, 94);
   height: 2vh;
+  &-name {
+    color: rgb(199, 195, 195);
+  }
 }

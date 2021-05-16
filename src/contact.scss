@@ -1,0 +1,45 @@
+.contact {
+  height: 100vh;
+  width: 100%;
+  background: #002046;
+  padding: 5rem 0rem;
+  position: relative;
+  &-heading {
+    color: white;
+    position: absolute;
+    top: 2rem;
+    right: 5rem;
+    font-size: 5rem;
+    font-weight: 600;
+    padding-left: 5rem;
+    border-bottom: 1px solid white;
+  }
+  &-item {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    @media only screen and (max-width: 36.5em) {
+      width: 100%;
+    }
+    padding: 2rem 0rem;
+    // background: red;
+    &-img {
+      height: 15rem;
+      width: 15rem;
+      border-radius: 50%;
+    }
+    &-info {
+      color: white;
+      font-family: "Montserrat", sans-serif;
+      margin-left: 10rem;
+      &-name {
+        font-size: 3rem;
+        font-weight: 600;
+      }
+      &-ph {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}

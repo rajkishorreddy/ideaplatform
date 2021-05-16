@@ -3,6 +3,7 @@ import history from "./history";
 import LandingPg from "./LandingPg";
 import Signup from "./Signup";
 import Login from "./Login";
+import Contact from "./Contact";
 const App = () => {
   return (
     <div>
@@ -11,6 +12,7 @@ const App = () => {
           <Route path="/" exact component={LandingPg} />
           <Route path="/signup" exact component={Signup} />
           <Route path="/login" exact component={Login} />
+          <Route path="/contact" exact component={Contact} />
         </Switch>
       </Router>
     </div>

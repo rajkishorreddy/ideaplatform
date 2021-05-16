@@ -12,9 +12,13 @@ const Main = () => {
             <img src={Logo} className="header-nav-logo-name" alt="logo" />
           </div>
           <nav className="header-nav-items">
-            <div className="header-nav-items-1 header-nav-items-item">
+            <Link
+              style={{ textDecoration: "none" }}
+              to={"/contact"}
+              className="header-nav-items-1 header-nav-items-item"
+            >
               Contact us
-            </div>
+            </Link>
             <div className="header-nav-items-2 header-nav-items-item">
               Our Vision
             </div>

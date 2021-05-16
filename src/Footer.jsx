@@ -1,10 +1,14 @@
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="footer">
-      {/* <div className="footer-name">
-        <div> RAKESH BANDI - rakeshbandi2000@gmail.com</div>
-        <div>A Mahesh -</div>
-      </div> */}
+      <Link
+        style={{ textDecoration: "none" }}
+        to={"/contact"}
+        className="footer-name"
+      >
+        still confused ? contact us &rarr;
+      </Link>
     </div>
   );
 };
